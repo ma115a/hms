@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="BazeProject.LaboratoryResultsDoctor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BazeProject"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="#FFFDFDFC">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="7.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Grid.Row="0" Grid.ColumnSpan="1" Grid.Column="1" Name="LabResultGrid" Width="Auto"
+      AutoGenerateColumns="False" IsReadOnly="True" Margin="0"
+      FontSize="14" CanUserAddRows="False"
+      HorizontalScrollBarVisibility="Auto">
+            <DataGrid.Columns>
+                <!-- Doctor Name Column -->
+                <DataGridTextColumn Header="Doctor Name" Binding="{Binding doc_name}" Width="150">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Center"/>
+                            <!-- Center horizontally -->
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <!-- Center vertically -->
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!-- Date Column -->
+                <DataGridTextColumn Header="Tehnician Name" Binding="{Binding tech_name}" Width="150">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!-- Diagnosis Column -->
+                <DataGridTextColumn Header="Date" Binding="{Binding date}" Width="250">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="TextWrapping" Value="Wrap"/>
+                            <!-- Enable wrapping -->
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <!-- Treatment Column -->
+                <DataGridTextColumn Header="Result" Binding="{Binding result}" Width="250">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Center"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="TextWrapping" Value="Wrap"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

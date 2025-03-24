@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qwert\\Desktop\\BazeProject\\BazeProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60925B50-FB6E-4E62-A82F-B78A7871A08A}|BazeProject\\BazeProject.csproj|c:\\users\\qwert\\desktop\\bazeproject\\bazeproject\\bazeproject\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60925B50-FB6E-4E62-A82F-B78A7871A08A}|BazeProject\\BazeProject.csproj|solutionrelative:bazeproject\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\qwert\\Desktop\\BazeProject\\BazeProject\\BazeProject\\Doctor.cs",
+              "RelativeDocumentMoniker": "BazeProject\\Doctor.cs",
+              "ToolTip": "C:\\Users\\qwert\\Desktop\\BazeProject\\BazeProject\\BazeProject\\Doctor.cs",
+              "RelativeToolTip": "BazeProject\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:54:57.815Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
